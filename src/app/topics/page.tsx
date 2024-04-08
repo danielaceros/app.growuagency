@@ -66,7 +66,7 @@ export default function Home() {
   const sendtoAPI = () => {
     setClicked(true);
     const fetchVideos = (pageToken: string | null) => {
-      let url = `https://www.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&regionCode=ES&key=${process.env.NEXT_PUBLIC_YOUTUBE_KEY}`;
+      let url = `https://www.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&regionCode=ES&key=${process.env.YOUTUBE_KEY}`;
       if (pageToken) {
         url += `&pageToken=${pageToken}`;
       }
