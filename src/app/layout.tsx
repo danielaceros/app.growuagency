@@ -3,7 +3,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { NextUIProvider } from "@nextui-org/react";
 import {Providers} from "./providers";
-import ParticleBackground from "@/components/ui/particles";
 
 const inter = Inter({ subsets: ["latin"] });
 

@@ -5,9 +5,6 @@ import { Image } from '@nextui-org/react';
 import Link from 'next/link';
 import {Skeleton} from "@nextui-org/react";
 import { useEffect, useState } from 'react';
-import ParticleBackground from '@/components/ui/particles';
-import Particles from "react-tsparticles"; 
-import ParticlesComponent from '@/components/ui/particles';
 
 export default function Home() {
   const [loaded, setisloaded] = useState(false);

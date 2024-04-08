@@ -1,7 +1,6 @@
 "use client"
 import { Button, Link, Input } from '@nextui-org/react';
 import { useState } from 'react';
-import ParticleBackground from '@/components/ui/particles';
 import { useEffect } from 'react';
 import {Card, CardHeader, CardBody, Image} from "@nextui-org/react";
 

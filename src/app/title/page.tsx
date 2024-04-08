@@ -8,7 +8,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import {Textarea} from "@nextui-org/react";
 import { useState } from 'react';
-import ParticleBackground from '@/components/ui/particles';
 
 // Componente de la página principal
 export default function Home() {
